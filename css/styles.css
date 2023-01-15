@@ -1,0 +1,238 @@
+/*--------------
+    default css 
+ ---------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+/*--------------
+    common css 
+ ---------------*/
+
+.pink {
+  background-color: #ff900e1a;
+}
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+.section-para {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ff900e;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 8px;
+  margin: 50px 0 50px;
+}
+
+/*--------------
+    nav bar css 
+ ---------------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 230px 0 230px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  color: #424242;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 50px;
+}
+/*--------------
+    banner css 
+ ---------------*/
+.banner {
+  text-align: center;
+}
+h1 {
+  padding: 110px 0 30px;
+  font-weight: 700;
+  font-size: 65px;
+}
+.header-img img {
+  width: 1440px;
+  height: 700px;
+  margin: 0 240px;
+  padding-bottom:50px ;
+}
+/*--------------
+  quick feature css 
+ ---------------*/
+.quick-features {
+  margin: 90px 300px 0 300px;
+  display: flex;
+}
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 25px;
+}
+.feature-img img {
+  width: 340px;
+  height: 340px;
+}
+.feature-info {
+  margin: 150px 0 0 75px;
+}
+.feature-info .section-para {
+  margin-top: 50px;
+}
+.span-1 {
+  font-weight: 400;
+  font-size: 40px;
+  color: #727272;
+}
+.span-2 {
+  color: #ff900e;
+}
+/*--------------
+    love feature css 
+ ---------------*/
+.love-features {
+  margin: 130px 300px 0 300px;
+  display: flex;
+}
+.love-ftr-section .section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 30px;
+  margin: 30px 0 30px;
+}
+.love-ftr-section .section-para {
+  margin-bottom: 20px;
+}
+.love-ftr {
+  width: 530px;
+  height: 170px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.love-ftr-img {
+  margin-left: 100px;
+}
+.btn-big {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  background-color: #ff900e;
+  padding: 50px 60px;
+  border: none;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+  position: relative;
+  bottom: -858px;
+  right: 750px;
+}
+.btn-span {
+  font-weight: 700;
+  font-size: 65px;
+}
+/*--------------
+    extra css 
+ ---------------*/
+ .extra .section-title{
+    text-align: center;
+    padding-top: 50px;
+    margin: 100px 0;
+ }
+ .men-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+ }
+ .man-name{
+    margin: 0px 0 20px;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 50px;
+ }
+/*--------------
+    facts css 
+ ---------------*/
+.facts {
+  margin: 150px 200px 0 300px;
+}
+.facts .section-title {
+  margin-bottom: 20px;
+}
+.fact-boxes {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.fact-box {
+  margin-top: 100px;
+  border: 2px solid #ff900e;
+  border-radius: 10px;
+  padding: 50px 40px;
+  transition: .5s;
+}
+.fact-box:hover{
+    transform: scale(1.2);
+}
+.fact-box img {
+  width: 50px;
+  height: 50px;
+}
+.fact-count {
+  font-weight: 600;
+  font-size: 45px;
+}
+.fact-para {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+/*--------------
+    sponsors css 
+ ---------------*/
+ .sponsors{
+    margin-top: 180px;
+ }
+ .sponsors-info{
+    margin:0 690px ;
+    text-align: center;
+ }
+ .sponsors-info .section-para{
+    margin: 20px 0 50px;
+ }
+ .sponsors-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 50px;
+ }
+ /*--------------
+    sponsors css 
+ ---------------*/
+ .footer-para{
+    text-align: center;
+    margin: 130px 250px 220px 250px;
+    padding: 30px ;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    border-radius: 10px;
+ }
+
+ /* mobile device responsive */
+ @media screen and (max-width:576px) {
+    
+ }
